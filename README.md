@@ -70,6 +70,12 @@ Note: BridgeItemId table should contain distinct rows of Item_ID and BridgeVendo
       ```Average sales amount = AVERAGE(Sales[Sales])```
    7) SelectPeriodsales (Last 7, 14 and 28 days sales)  
         ![image](https://github.com/user-attachments/assets/22453726-846b-4c95-b3fb-3c6811b321cf)
+   8) MASelecsales (14 days moving average, latest 3 months sales  
+      ![image](https://github.com/user-attachments/assets/7ea59026-b758-4b9e-9eb0-6f08dfd3e342)  
+      ![image](https://github.com/user-attachments/assets/ee6880a2-3491-4e19-86c9-35c99e54dc50)
+
+
+
 
 ### Data Analysis
 ```
