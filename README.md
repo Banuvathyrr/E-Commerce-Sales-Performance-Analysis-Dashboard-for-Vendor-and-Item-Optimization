@@ -1,11 +1,6 @@
 # 
 <h1 align="center">ECommerce Company Sales Performance Analysis</h1>
 
-<p align="center">
-  <img src="https://github.com/Banuvathyrr/ /assets/145739539/b68e3e3e-85fc-46ad-9fe0-da902edc4d91">
-</p>
-
-
 
 ### Introduction  
 ABC is an ecommerce company that sells over 25,000 items online. These items are sold by different vendors from across the country. Currently there is no dashboard available to help the Sales team monitor the performance of various vendors or items. Also, they need a ranking / categorization of the products to identify the products they need to keep an eye on.
@@ -31,8 +26,9 @@ The dataset contains 3 CSV files:
 
 ### 
 <p align="center">
-  <img src="https://github.com/Banuvathyrr/"E:\Data analyst\OJ Commerce\datamodel.png" /assets/145739539/b68e3e3e-85fc-46ad-9fe0-da902edc4d91">
+  <img src="https://github.com/user-attachments/assets/74cd5132-ba46-43b0-8f4f-f5b77446b316" alt="Data Model">
 </p>
+
 
 ### Exploratory Data Analysis
 EDA involved exploring promotions data to answer the following key questions:
