@@ -50,7 +50,9 @@ Note: BridgeItemId table should contain distinct rows of Item_ID and BridgeVendo
  - Tables
    1) PeriodSelection  
       ![image](https://github.com/user-attachments/assets/2487cef6-03d6-4a96-b1ff-1b3defa53f3a)
-   2) 
+   2) MASales  
+      ![image](https://github.com/user-attachments/assets/ba3ff9f3-ac09-4759-ba42-057a49939229)  
+
 
   
  - Measures created in Sales table
@@ -63,7 +65,11 @@ Note: BridgeItemId table should contain distinct rows of Item_ID and BridgeVendo
    4) Total Orders  
       ```Total Orders = SUM(Sales[Order_ID])```
    5) Total no. of Managers  
-      ```Total Managers = DISTINCTCOUNT(Sales[Manager])```  
+      ```Total Managers = DISTINCTCOUNT(Sales[Manager])```
+   6) Average sales amount
+      ```Average sales amount = AVERAGE(Sales[Sales])```
+   7) SelectPeriodsales (Last 7, 14 and 28 days sales)  
+        ![image](https://github.com/user-attachments/assets/22453726-846b-4c95-b3fb-3c6811b321cf)
 
 ### Data Analysis
 ```
