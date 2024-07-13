@@ -30,30 +30,40 @@ two bridge tables were created: BridgeItem and BridgeVendor. This approach trans
 and more accurate data connections.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/74cd5132-ba46-43b0-8f4f-f5b77446b316" alt="Data Model">
-</p>
+</p>  
 
+- Sales[item_id] connected to BridgeItemId[item_id] (many-to-one) 
+- BridgeItemId[item_id] connected to ItemVendor[item_id] (one-to-many)  
+- ItemVendor[vendor] connected to BridgeVendor[vendor] (many-to-one)  
+- BridgeVendor[vendor] connected to VendorManager[vendor] (one-to-many)
+
+Note: BridgeItemId table should contain distinct rows of Item_ID and BridgeVendor table should contain distinct rows of Vendors
 
 ### Exploratory Data Analysis
-EDA involved exploring promotions data to answer the following key questions:
-- Provide a list of products with a base price greater than 500 and featured in promo type of 'BOGOF'
-- How many number of stores in each city?
-- Create a report that displays each campaign with total revenue before and after promotion (expressed in millions)
-- Compute Incremental Sold Unit percentage for each category and rank them
-- List top 5 products ranked by Incremental revenue percentage across all campaigns.
 
-### Following Measures and Columns were created
- - Incremental revenue
- - Icremental sold units
- - Incremental revenue %
- - Icremental sold units %
- - Total revenue before promo
- - Total revenue after promo
- - Total sold units before promo
- - Total sold units after promo
- - Average price before promo and after promo =total revenue/told sold units
- - Promo impact: the difference between the total revenue or sold units after the promo and before the promo
- - Promo Effectiveness: the ratio of incremental revenue or sold units to the base revenue or sold units before the promo
- - Average Incremental Revenue % and Incremental Sold Units %
+
+### Following Measures, Calculated Columns and tables were created
+ - Calculated columns added in Sales table  
+   1) VendorName
+   2) Manager
+   3) Order Month
+ - Tables
+   1) PeriodSelection  
+      ![image](https://github.com/user-attachments/assets/2487cef6-03d6-4a96-b1ff-1b3defa53f3a)
+   2) 
+
+  
+ - Measures created in Sales table
+   1) Total Sales   
+      ```TotalSales = SUM(Sales[Sales])```  
+   2) Total No. of Vendors  
+      ```Total No Of Vendors = DISTINCTCOUNT(Sales[VendorName])```
+   3) Total Quantity Sold  
+      ```Total Quantity = SUM(Sales[Quantity])```
+   4) Total Orders  
+      ```Total Orders = SUM(Sales[Order_ID])```
+   5) Total no. of Managers  
+      ```Total Managers = DISTINCTCOUNT(Sales[Manager])```  
 
 ### Data Analysis
 ```
