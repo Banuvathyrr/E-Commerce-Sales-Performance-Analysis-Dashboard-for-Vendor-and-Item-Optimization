@@ -1,4 +1,4 @@
-# 
+
 <h1 align="center">ECommerce Company Sales Performance Analysis</h1>
 
 
@@ -21,10 +21,13 @@ The dataset contains 3 CSV files:
 ### Data Cleaning/Preparation
 - Column names renamed.  
 - Checked datatype of each column and changed it if there is any mismatch.  
-- Extracted numeric values from the text columns.  
-- New columns created for better analysis of the data.
+- Rows having errors and empty values were checked and removed.
+- New columns such as Sales, VendorName and Manager were created in Sales table for better analysis of the data.
 
-### 
+### Data Modelling
+To resolve the ambiguity caused by many-to-many relationships between the Sales table and ItemVendor table, and between the ItemVendor table and VendorManager table, 
+two bridge tables were created: BridgeItem and BridgeVendor. This approach transformed the many-to-many relationships into one-to-many relationships, ensuring clearer 
+and more accurate data connections.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/74cd5132-ba46-43b0-8f4f-f5b77446b316" alt="Data Model">
 </p>
