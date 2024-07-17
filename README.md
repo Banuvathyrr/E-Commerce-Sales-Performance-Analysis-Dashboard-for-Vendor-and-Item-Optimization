@@ -93,6 +93,17 @@ Note: BridgeItemId table should contain distinct rows of Item_ID and BridgeVendo
 
 ### Exploratory Data Analysis
 
+I have added 3 important pages.  
+1) Sales performance tracking
+2) Vendor performance analysis
+3) Manager level analysis  
+
+Additional information will be available in Top 10 vendor, Manager and vendor info pages.  
+**Sales Performance** 
+In sales performance report page, 4 KPI cards were inserted to show Total sales, Total quantity sold, Average sales amount and Total orders.  
+A line chart with total sales over Order month shown in the left of the report.  
+Two Period selector slicer has been created. One for showing **14 days Moving average and latest 3 months sales over order date**  
+
 ### Results/ Findings
 
 
