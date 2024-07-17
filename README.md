@@ -112,7 +112,15 @@ a) In Vendor performance report page, total no. of vendors card was added along 
 b) Two **slicers** were added: Vendor and Manager. To choose vendor or manager based on the need.  
 c) **Pie chart** added to display the top 10 vendors based on the sales.  
 d) **Horizontal bar chart** added to display the total quantity sold by each vendor with the vendor having maximum sales in the top.  
-e) 
+e) Total orders by order month have been shown as **vertical bar chart** with the month having higher orders in the beginning and lower orders at the end.  
+f) Vendors with second best selling item has been shown with the Item ID in a table visual  
+
+**Manager level analysis**   
+a) A **funnel chart** has been used to show total sales by manager  
+b) Total number of managers in the company is shown as card visual on top of the report.  
+c) **Tree map** shown to display the total quantity sold under each manager.  
+d) Count of distinct items, sales amount, count of vendor name with respect to each manager has been listed in the form of tabular visual
+
 
 
 ### Results/ Findings
