@@ -65,6 +65,9 @@ Note: BridgeItemId table should contain distinct rows of Item_ID and BridgeVendo
       ![image](https://github.com/user-attachments/assets/a471c516-dce9-4c6a-918d-88454071e80a)
    6) Total quantity sold per item  
       ![image](https://github.com/user-attachments/assets/9db85c3a-f04b-4d1c-8161-5254ddf047d4)
+   7) Select Items  
+      ![image](https://github.com/user-attachments/assets/a479ee10-3611-4ad8-8aa4-7ee9d890dfe4)
+
         
  - **Measures created in Sales table**
    1) Total Sales   
