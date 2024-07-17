@@ -119,8 +119,9 @@ f) Vendors with second best selling item has been shown with the Item ID in a ta
 a) A **funnel chart** has been used to show total sales by manager  
 b) Total number of managers in the company is shown as card visual on top of the report.  
 c) **Tree map** shown to display the total quantity sold under each manager.  
-d) Count of distinct items, sales amount, count of vendor name with respect to each manager has been listed in the form of tabular visual
-
+d) Count of distinct items, sales amount, count of vendor name with respect to each manager has been listed in the form of tabular visual  
+e) Table with manager on each row is provided with drill through option to see the details about the selected manager in the table of Manager report.
+![image](https://github.com/user-attachments/assets/3754665c-50a9-4974-8c6b-7829e80fb31e)
 
 
 ### Results/ Findings
