@@ -99,10 +99,13 @@ I have added 3 important pages.
 3) Manager level analysis  
 
 Additional information will be available in Top 10 vendor, Manager and vendor info pages.  
-**Sales Performance** 
-In sales performance report page, 4 KPI cards were inserted to show Total sales, Total quantity sold, Average sales amount and Total orders.  
-A line chart with total sales over Order month shown in the left of the report.  
-Two Period selector slicer has been created. One for showing **14 days Moving average and latest 3 months sales over order date**  
+
+**Sales Performance**   
+a) In sales performance report page, 4 KPI cards were inserted to show Total sales, Total quantity sold, Average sales amount and Total orders.  
+b) A line chart with total sales over Order month shown in the left of the report.  
+c) Two Period selector slicer has been created. One for showing **14 days Moving average and latest 3 months sales over order date**  
+d) Second Period selector slicer helps to view the **last 7, 14 and 28 days sales amount**
+e) Page navigator icons (buttons with image) added at the left of the 
 
 ### Results/ Findings
 
