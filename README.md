@@ -1,5 +1,5 @@
 
-<h1 align="center">ECommerce Company Sales Performance Analysis</h1>
+<h1 align="center">eCommerce Company Sales Performance Analysis</h1>
 
 
 ### Introduction 
