@@ -123,6 +123,8 @@ d) Count of distinct items, sales amount, count of vendor name with respect to e
 e) Table with manager on each row is provided with drill through option to see the details about the selected manager in the table of Manager report.
 
 
+
+
 ### Results/ Findings
 **Sales Trends**:  
 - Total sales amount saw a significant increase in March, reaching its peak towards the end of the month. After this peak, sales began to gradually decline.    
@@ -145,6 +147,9 @@ Manager J: Total sales of 2.10M, managing 29 vendors and 4,707 distinct items.
 Manager V: Total sales of 2.40M, managing 46 vendors and 4,571 distinct items.  
 Manager N: Total sales of 153.04K, managing 61 vendors and 859 distinct items.  
 Manager X: Total sales of 80.20K, managing 9 vendor and 294 distinct items.  
+
+- There exists
+
 
 ### Recommendation
 
