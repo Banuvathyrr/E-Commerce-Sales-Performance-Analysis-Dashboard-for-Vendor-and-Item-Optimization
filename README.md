@@ -2,21 +2,26 @@
 <h1 align="center">ECommerce Company Sales Performance Analysis</h1>
 
 
-### Introduction  
+### Introduction 
 ABC is an ecommerce company that sells over 25,000 items online. These items are sold by different vendors from across the country. Currently there is no dashboard available to help the Sales team monitor the performance of various vendors or items. Also, they need a ranking / categorization of the products to identify the products they need to keep an eye on.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Project Overview
 This dashboard will enable the Sales team to monitor the performance of both vendors and products effectively. It will provide insights into sales metrics, highlight top-performing vendors and items, and offer a ranking/categorization system to identify products requiring attention. This initiative aims to optimize inventory management and drive strategic decisions for improved sales outcomes.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Data Sources
 The dataset contains 3 excel files:
 1. Sales
 2. Item-Vendor
 3. Vendor-Manager
-
+   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Tools
 - PowerBi -Data Cleaning, Data analysis and creating dashboards
 - Powerpoint - Creating video presentation
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Data Cleaning/Preparation
 - Column names renamed.  
@@ -24,6 +29,7 @@ The dataset contains 3 excel files:
 - Rows having errors and empty values were checked and removed.
 - New columns such as Sales, VendorName and Manager were created in Sales table for better analysis of the data.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Data Modelling
 To resolve the ambiguity caused by many-to-many relationships between the Sales table and ItemVendor table, and between the ItemVendor table and VendorManager table, 
 two bridge tables were created: BridgeItem and BridgeVendor. This approach transformed the many-to-many relationships into one-to-many relationships, ensuring clearer 
@@ -39,7 +45,7 @@ and more accurate data connections.
 
 Note: BridgeItemId table should contain distinct rows of Item_ID and BridgeVendor table should contain distinct rows of Vendors
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Following Calculated Columns, Measures and tables were created
  - **Calculated columns added in Sales table**
    1) VendorName  
@@ -90,7 +96,7 @@ Note: BridgeItemId table should contain distinct rows of Item_ID and BridgeVendo
    9) Total items by each manager  
       ![image](https://github.com/user-attachments/assets/85dbcbcc-7f86-428e-b4ed-2ca99d111f8a)  
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Exploratory Data Analysis
 
 I have added 3 important pages.  
@@ -119,12 +125,12 @@ f) Vendors with second best selling item has been shown with the Item ID in a ta
 a) A **funnel chart** has been used to show total sales by manager  
 b) Total number of managers in the company is shown as card visual on top of the report.  
 c) **Tree map** shown to display the total quantity sold under each manager.  
-d) Count of distinct items, sales amount, count of vendor name with respect to each manager has been listed in the form of tabular visual  
-e) Table with manager on each row is provided with drill through option to see the details about the selected manager in the table of Manager report.
+d) Count of distinct items, sales amount, count of vendor name with respect to each manager has been listed in the form of **tabular visual**  
+e) Table with manager on each row is provided with **drill through** option to see the details about the selected manager in the table of Manager report.
 
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Results/ Findings
 **Sales Trends**:  
 - Total sales amount saw a significant increase in March, reaching its peak towards the end of the month. After this peak, sales began to gradually decline.    
@@ -146,20 +152,58 @@ Manager M: Total sales of 80.20K, managing 98 vendors and 7,770 distinct items.
 Manager J: Total sales of 2.10M, managing 29 vendors and 4,707 distinct items.  
 Manager V: Total sales of 2.40M, managing 46 vendors and 4,571 distinct items.  
 Manager N: Total sales of 153.04K, managing 61 vendors and 859 distinct items.  
-Manager X: Total sales of 80.20K, managing 9 vendor and 294 distinct items.  
+Manager X: Total sales of 80.20K, managing 9 vendor and 294 distinct items.    
 
-- There exists
+**Linear Trend Analysis**:  
+There is a clear linear trend between the **count** of distinct **items**(item_id) and **total sales**, indicating that increasing the number of items significantly boosts total sales.
+In contrast, the count of vendors does not exhibit a linear trend with total sales, suggesting that simply increasing the number of vendors does not lead to a significant rise in sales
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Recommendation  
+1) **Focus on March Sales Peaks**:  
+- Promotional Campaigns: Since March saw a significant increase in sales, consider running targeted promotional campaigns during this month to capitalize on the trend.  
+- Stock Management: Ensure that inventory levels are adequate to meet the expected increase in demand in March.  
 
-### Recommendation
+2) **Leverage Top Vendors**:  
+- Partnership Development: Strengthen relationships with top vendors like Onus Global Fulfillment, Liola Home, and South Store to maintain and potentially increase their contribution to overall sales.  
+- Vendor Incentives : Provide incentives or support to these vendors to encourage the introduction of new items or exclusive deals that could drive higher sales.  
 
+3) **Optimize Product Offerings**:
+- Expand Item Range: Since there is a linear trend between the count of distinct items and total sales, increasing the variety of items offered could lead to higher sales.
+- Analyze Item Performance: Regularly review the performance of distinct items and focus on promoting high-performing items while reconsidering or discontinuing low-performing ones.
 
+4) **Monthly Sales Analysis**:
+- Seasonal Adjustments: Given the high order volumes in March, April, May, and January, plan for seasonal adjustments in inventory and marketing strategies to align with these peak months.  
+- Continuous Monitoring: Use historical sales data to predict future trends and adjust sales strategies accordingly.    
+
+5) **Enhance Vendor Management**:
+- Vendor Count vs. Item Count: The findings indicate that simply increasing the number of vendors does not significantly impact sales. Focus on increasing the count of distinct items from each vendor instead.  
+- Performance Benchmarks: Establish performance benchmarks for vendors based on sales, item count, and other relevant metrics to ensure consistent performance across the board.  
+
+6) **Sales and Item Correlation**:
+- Data-Driven Decisions: Utilize the clear correlation between item count and sales to make data-driven decisions on inventory management and product offerings.    
+- Predictive Analytics: Implement predictive analytics tools to forecast the impact of adding new items on overall sales and adjust strategies accordingly.    
+
+**Example Action Plan**  
+-  March Promotions: Launch a "Spring Sale" campaign every March, featuring discounts and special offers on popular items.  
+-  Vendor Partnerships: Schedule quarterly meetings with top vendors to discuss performance, introduce new products, and negotiate better terms.  
+-  Inventory Expansion: Conduct market research to identify new product categories that could be introduced to increase item variety and boost sales.  
+-  Performance Dashboards: Develop and regularly update Power BI dashboards that provide real-time insights into vendor and item performance for the sales team.  
+-  Training: Train the sales team on using data analytics tools to monitor performance and make informed decisions.    
+
+By implementing these recommendations, the sales team at ABC eCommerce can effectively monitor and improve the performance of various vendors and items, ultimately driving higher sales and better customer satisfaction.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Dashboard 
-- Check the dashboard here: 
+- Check the dashboard here:
 
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Video Presentation link:
 - 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Acknowledgements
 - 
 
