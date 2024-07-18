@@ -121,11 +121,30 @@ b) Total number of managers in the company is shown as card visual on top of the
 c) **Tree map** shown to display the total quantity sold under each manager.  
 d) Count of distinct items, sales amount, count of vendor name with respect to each manager has been listed in the form of tabular visual  
 e) Table with manager on each row is provided with drill through option to see the details about the selected manager in the table of Manager report.
-![image](https://github.com/user-attachments/assets/3754665c-50a9-4974-8c6b-7829e80fb31e)
 
 
 ### Results/ Findings
+**Sales Trends**:  
+- Total sales amount saw a significant increase in March, reaching its peak towards the end of the month. After this peak, sales began to gradually decline.    
 
+**Top Vendors by Sales Amount**:  
+- Onus Global Fulfillment: Contributed approximately 10% of the total sales amount.  
+- Liola Home: Contributed approximately 7% of the total sales amount.  
+- South Store: Contributed approximately 6.1% of the total sales amount.  
+
+**Quantity Sold**:  
+- The total quantity sold by Onus Global Fulfillment was 61,931 units, making up approximately 10% of the overall quantity sold. This was followed by OJCommerce, South Store, and Fulfillment Concepts in terms of quantity sold.
+
+**Order Volume by Month**:   
+- The highest number of orders was recorded in March, followed by April, May, and January.
+
+**Total Sales by Manager**:  
+Manager A: Highest sales amount of $41.81M, managing 179 vendors and 29,199 distinct items.  
+Manager M: Total sales of 80.20K, managing 98 vendors and 7,770 distinct items.  
+Manager J: Total sales of 2.10M, managing 29 vendors and 4,707 distinct items.  
+Manager V: Total sales of 2.40M, managing 46 vendors and 4,571 distinct items.  
+Manager N: Total sales of 153.04K, managing 61 vendors and 859 distinct items.  
+Manager X: Total sales of 80.20K, managing 9 vendor and 294 distinct items.  
 
 ### Recommendation
 
