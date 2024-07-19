@@ -1,5 +1,5 @@
 
-<h1 align="center">eCommerce Company Sales Performance Analysis</h1>
+<h1 align="center">E-Commerce Sales Performance Analysis Dashboard for Vendor and Item Optimization</h1>
 
 
 ### Introduction 
