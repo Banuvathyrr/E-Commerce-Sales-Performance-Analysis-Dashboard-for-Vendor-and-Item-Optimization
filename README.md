@@ -196,9 +196,7 @@ By implementing these recommendations, the sales team at ABC eCommerce can effec
 ### Dashboard 
 - Check the dashboard here: https://mavenanalytics.io/project/17351
  
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### Video Presentation link:
-- 
+
 
 
 
